@@ -1,5 +1,7 @@
 # 성균관대 KBI — AI 기반 데이터사이언스 학습 포트폴리오
 
+🇰🇷 한국어 | [🇺🇸 English](./README.en.md)
+
 > 성균관대학교 KBI 과정에서 이수한 **머신러닝**과 **딥러닝** 학습 내용을 정리한 포트폴리오입니다.  
 > 이론 개념부터 PyTorch 기반 실습까지 데이터사이언스 전 스택을 다룹니다.
 
@@ -11,6 +13,19 @@
 |------|------|-----------|
 | 머신러닝 | Day 1–4 | Python/NumPy/Pandas, 분류, 회귀, 비지도학습 |
 | 딥러닝 | Day 1–5 | PyTorch, CNN, RNN/LSTM, Transformer, LLM |
+
+---
+
+## 주요 실험 결과
+
+| 과제 | 모델 | 성능 |
+|------|------|------|
+| 스팸 메일 분류 | Multinomial Naive Bayes | Accuracy ~97% |
+| Titanic 생존 예측 | Logistic Regression | Accuracy 81% |
+| 키-몸무게 예측 | Linear Regression (성별 분리) | MSE 95.5 (남) / 102.6 (여) |
+| MNIST 이미지 분류 | CNN | Accuracy ~99% |
+| 주가 시계열 예측 | LSTM | MAE 최소화 |
+| 한국어 텍스트 분류 | BERT Fine-tuning | Accuracy ~90%+ |
 
 ---
 
@@ -46,3 +61,8 @@
 - RNN · LSTM · GRU로 주가 · 교통량 시계열 예측
 - BERT 파인튜닝 (한국어 NLP), GPT 텍스트 생성
 - Diffusion Model을 이용한 이미지 생성, ChatGPT 활용 실습
+
+### [Transformer 심화](./딥러닝/transformer.md)
+- Self-Attention 메커니즘 원리
+- Multi-Head Attention 및 Positional Encoding
+- BERT vs GPT 구조 비교 및 Fine-tuning
